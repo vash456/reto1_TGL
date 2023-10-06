@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedidos Pizza</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <div class="contenedor" id="contenedor">
+      <h1>Bienvenidos a la Pizzeria</h1>
+      <h3>Crear pedido:</h3>
+      <div class="formulario">
+          <table>
+            <tr>
+              <td><label for="nombre">Nombre de pizza: </label></td>
+              <td><input type="text" id="nombre"></td>
+            </tr>
+            <tr>
+              <td><label for="costo">Costo:</label></td>
+              <td><input type="number" id="costo"></td>
+            </tr>
+            <tr>
+              <td><input type="submit" id="boton" value="Recibir pedido" onclick="crearPedido()"></td>
+            </tr>
+          </table>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
